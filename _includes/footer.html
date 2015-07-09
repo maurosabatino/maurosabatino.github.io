@@ -1,20 +1,17 @@
-  
-  <nav id="footer">
-      <div class="container">
-          <div class="pull-left fnav">
-            <ul class="footer-social">
-            <li class="navbar-brand" href="mailto:{{ site.email }}"> {{ site.email }}</li>
-            </ul>
-          </div>
-          <div class="pull-right fnav">
-              <ul class="footer-social">
-                  {% if site.github_username %}
-              <li href="https://github.com/{{ site.github_username }}">
-                <i class="fa fa-github"></i>
-              </li>
-            {% endif %}
-            </ul>
-          </div>
-      </div>
-  </nav>
-  
+<footer class="mdl-mini-footer">
+  <div class="mdl-mini-footer--left-section">
+    <div class="mdl-logo">
+      More Information
+    </div>
+    <ul class="mdl-mini-footer--link-list">
+      <li><a href="#">Help</a></li>
+      <li><a href="#">Privacy and Terms</a></li>
+      <li><a href="#">User Agreement</a></li>
+    </ul>
+  </div>
+  <div class="mdl-mini-footer--right-section">
+    <button class="mdl-mini-footer--social-btn"></button>
+    <button class="mdl-mini-footer--social-btn"></button>
+    <button class="mdl-mini-footer--social-btn"></button>
+  </div>
+</footer>

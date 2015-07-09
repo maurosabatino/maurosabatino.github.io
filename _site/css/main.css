@@ -1,0 +1,8 @@
+
+.toolbardemoBasicUsage md-toolbar md-icon.md-default-theme {
+      color: white;
+ }
+  
+  .carddemoBasicUsage md-card {
+      min-height: 150px;
+ }
